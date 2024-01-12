@@ -10,8 +10,8 @@ Parameters:
       - t2.micro
       # Only allow small instances (this might be already sufficient)  
       - t3.micro
-      #- t3.small
-      #- t3.medium
+      - t3.small
+      - t3.medium
     ConstraintDescription: Must be a valid Cloud9 instance type
   EksWorkshopC9EnvType: 
     Description: Environment type.
