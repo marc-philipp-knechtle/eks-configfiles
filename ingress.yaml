@@ -20,5 +20,3 @@ spec:
             name: artemis-broker-hdls-svc
             port:
               number: 8161
-
-
